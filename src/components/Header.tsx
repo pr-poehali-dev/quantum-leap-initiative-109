@@ -10,10 +10,10 @@ export const Header = () => {
         </a>
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center justify-center gap-x-10">
           {[
-            { label: "О фонде", href: "#about" },
-            { label: "Портфель", href: "#portfolio" },
-            { label: "Команда", href: "#team" },
-            { label: "Контакты", href: "#contact" },
+            { label: "Обо мне", href: "#about" },
+            { label: "Предметы", href: "#subjects" },
+            { label: "Цены", href: "#pricing" },
+            { label: "Отзывы", href: "#reviews" },
           ].map((item) => (
             <a
               className="uppercase inline-block font-mono text-foreground/60 hover:text-foreground/100 duration-150 transition-colors ease-out"
@@ -28,7 +28,7 @@ export const Header = () => {
           className="uppercase max-lg:hidden transition-colors ease-out duration-150 font-mono text-primary hover:text-primary/80"
           href="#contact"
         >
-          Подать заявку
+          Записаться
         </a>
         <MobileMenu />
       </header>

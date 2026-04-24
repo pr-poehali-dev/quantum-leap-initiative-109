@@ -13,13 +13,13 @@ export function Hero() {
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
-        <Pill className="mb-6">ВЕНЧУРНЫЙ ФОНД</Pill>
+        <Pill className="mb-6">ОНЛАЙН-РЕПЕТИТОР</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
-          Инвестиции в тех, <br />
-          кто меняет <i className="font-light">завтра</i>
+          Учись так, чтобы <br />
+          результат был <i className="font-light">виден</i>
         </h1>
         <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[480px] mx-auto">
-          Мы находим и развиваем компании следующего поколения — от seed до Series A и beyond
+          Математика, физика, подготовка к ЕГЭ и ОГЭ — индивидуальный подход и первый урок бесплатно
         </p>
 
         <a className="contents max-sm:hidden" href="#contact">
@@ -28,7 +28,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Подать заявку]
+            [Записаться на пробный урок]
           </Button>
         </a>
         <a className="contents sm:hidden" href="#contact">
@@ -38,7 +38,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Подать заявку]
+            [Записаться]
           </Button>
         </a>
       </div>

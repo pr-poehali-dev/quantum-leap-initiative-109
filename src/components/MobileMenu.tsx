@@ -11,10 +11,10 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: "О фонде", href: "#about" },
-    { name: "Портфель", href: "#portfolio" },
-    { name: "Команда", href: "#team" },
-    { name: "Контакты", href: "#contact" },
+    { name: "Обо мне", href: "#about" },
+    { name: "Предметы", href: "#subjects" },
+    { name: "Цены", href: "#pricing" },
+    { name: "Отзывы", href: "#reviews" },
   ];
 
   const handleLinkClick = () => {
@@ -69,11 +69,11 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
 
             <div className="mt-6">
               <a
-                href="#sign-in"
+                href="#contact"
                 onClick={handleLinkClick}
                 className="inline-block text-xl font-mono uppercase text-primary transition-colors ease-out duration-150 hover:text-primary/80 py-2"
               >
-                Войти
+                Записаться
               </a>
             </div>
           </nav>
